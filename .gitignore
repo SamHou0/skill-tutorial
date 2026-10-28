@@ -1,0 +1,19 @@
+# Reference materials (copyrighted)
+books/
+
+# Evaluation and debug artifacts
+plain-language-coding-tutorial-workspace/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo

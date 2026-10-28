@@ -1,0 +1,53 @@
+{
+  "skill_name": "plain-language-coding-tutorial",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我刚开始学 Python，变量和 if 我总是看了就忘。能不能用大白话给我从头讲讲？",
+      "expected_output": "一份可直接打开的 HTML 教程和 Python starter 文件。先从一个生活中的小项目问题开始，再在项目需要时从零讲变量和 if；每一步只引入一个概念并留出代码任务。相关答案折叠，“没有傻问题”答疑穿插在各阶段。",
+      "files": [],
+      "expectations": [
+        "The output bundle contains a valid, UTF-8, directly openable tutorial.html and at least one linked Python starter file with TODOs, not only a Markdown document.",
+        "The opening is framed around the everyday project outcome, not a list of terms; the tutorial introduces variables and if only when the project needs them and teaches them from their foundations.",
+        "Small code-fill tasks are woven into project stages rather than left only to the end, and each relevant task links to an initial starter file that leaves the learner's work unfinished.",
+        "Think-question answers, exercise hints/answers, and the complete final code are inside closed-by-default details/summary sections; prompts remain visible.",
+        "Each major project stage includes a relevant, kind '没有傻问题' callout that answers a plausible beginner question in plain language.",
+        "The teaching accurately distinguishes assignment with = from equality comparison with ==, and examples/checks use them consistently.",
+        "Core ideas are revisited through later project steps and a final recall/check, without repeating the same paragraph verbatim.",
+        "The voice directly addresses the learner, includes at least one gentle topic-relevant humorous aside, and does not make fun of the learner or their confusion."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "帮我讲解一下 JavaScript 中的异步这个主题，尤其是 Promise 和 async/await。我现在经常分不清代码什么时候会继续往下跑，能不能讲清楚一点？",
+      "expected_output": "一份可直接打开的 HTML 教程和 JavaScript starter 文件。先让读者看到菜单加载的项目需求，再从零开始按需介绍同步/异步、Promise、then/catch 和 async/await；不在开篇堆术语。每阶段有代码任务和“没有傻问题”答疑，最后组合项目；答案折叠。",
+      "files": [],
+      "expectations": [
+        "The output bundle contains a valid, standalone tutorial.html plus linked JavaScript starter code files; the tutorial is rendered HTML, not Markdown dumped into a pre block.",
+        "The opening describes the menu project's user-visible need without previewing a Promise/async term list; each async concept is introduced only when a project feature needs it, then combined in a final runnable example.",
+        "It starts the requested topic from its foundations and explains each prerequisite and named concept before using that term or syntax in later code.",
+        "Project tasks are interleaved with the explanations; linked starter files include TODOs for the learner and do not contain the completed answer.",
+        "Think-question answers, hints, exercise solutions, and the complete project solution are in closed-by-default details sections in the HTML.",
+        "Relevant '没有傻问题' callouts appear in the project stages and answer likely confusion kindly instead of collecting all FAQs at the end.",
+        "The lesson repeats the execution-order mental model in later stages and includes observable checks, rather than front-loading a dense list of async concepts.",
+        "The tutorial uses a warm direct voice and at least one light, relevant humorous aside without letting jokes obscure the technical explanation."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "我刚开始学 Go，slice 和 range 每次看都混在一起。我以前会一点 JavaScript，你能从头讲清楚吗？",
+      "expected_output": "一份可直接打开的 HTML 教程和 Go starter 文件。先从订单/阅读清单要解决的问题出发，再在需要时从零介绍 slice、range、append 和索引修改；每个阶段穿插代码填空和“没有傻问题”答疑，最后组合成品，答案折叠。",
+      "files": [],
+      "expectations": [
+        "The output bundle contains a valid, UTF-8, directly openable tutorial.html and linked Go starter file(s) with TODOs; it is not Markdown-only.",
+        "The opening frames the list-tracking project without defining or listing slice/range; slice is introduced when the project needs a list, and range only when it needs to process that list, with both concepts taught from the beginning.",
+        "Each stage teaches one concept with small code and a clear result, then gives the learner a code-fill task in the project; starter files link from the HTML and leave TODOs unfilled.",
+        "It accurately explains slice length/capacity and sharing, append, range's index/value behavior and value-copy semantics, and concrete differences from JavaScript arrays.",
+        "A nearby diagram or visual model clarifies the slice window/backing array or range value copy, and is tied to an observable code result.",
+        "Answers to think questions, hints, exercise solutions, and the completed project code are folded in closed-by-default HTML details sections.",
+        "Relevant '没有傻问题' callouts are interspersed in the project steps and answer likely questions kindly.",
+        "The tutorial uses purposeful repetition, checkable project tasks, and at least one gentle topic-relevant humorous aside."
+      ]
+    }
+  ]
+}

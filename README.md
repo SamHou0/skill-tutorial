@@ -32,14 +32,14 @@
 
 ```bash
 # 方式一：直接克隆到 Claude Code 的 skills 目录
-git clone <repo-url> ~/.claude/skills/plain-language-coding-tutorial
+git clone https://github.com/SamHou0/skill-tutorial.git ~/.claude/skills/plain-language-coding-tutorial
 ```
 
 #### OpenCode
 
 ```bash
 # 放到 OpenCode 的 skills 目录
-git clone <repo-url> ~/.config/opencode/skills/plain-language-coding-tutorial
+git clone https://github.com/SamHou0/skill-tutorial.git ~/.config/opencode/skills/plain-language-coding-tutorial
 ```
 
 #### 手动安装
@@ -121,13 +121,13 @@ Given a topic (e.g. “explain JavaScript async”), it automatically:
 #### Claude Code
 
 ```bash
-git clone <repo-url> ~/.claude/skills/plain-language-coding-tutorial
+git clone https://github.com/SamHou0/skill-tutorial.git ~/.claude/skills/plain-language-coding-tutorial
 ```
 
 #### OpenCode
 
 ```bash
-git clone <repo-url> ~/.config/opencode/skills/plain-language-coding-tutorial
+git clone https://github.com/SamHou0/skill-tutorial.git ~/.config/opencode/skills/plain-language-coding-tutorial
 ```
 
 #### Manual
